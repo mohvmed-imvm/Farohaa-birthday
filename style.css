@@ -568,8 +568,9 @@ font-family:  'Amiri', serif;
 }
 
 .message p {
+    margin-top: 15px;
     font-size: clamp(16px, 4.8vw, 20px);
-    line-height: 2;
+    line-height: 1;
     white-space: pre-line;
     overflow-wrap: anywhere;
     font-family: 'Lateef', "Times New Roman", serif;
