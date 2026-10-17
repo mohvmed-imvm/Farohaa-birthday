@@ -138,35 +138,19 @@ body{
 
 /* الرقم */
 
-.number{
-
-    position:relative;
-
-    font-size:
-        clamp(100px,35vw,160px);
-
-    font-weight:200;
-
-    line-height:1;
-    color: #ffffff;
-    font-family: "Playfair Display", Courier, monospace;
-    animation:
-        numberIn .8s ease;
+.number {
+    position: relative;
+    font-size: clamp(100px, 35vw, 160px);
+    font-weight: 200;
+    line-height: 1;
+    text-shadow: 0 0 20px rgba(255,255,255,.9), 0 0 60px rgba(255,255,255,.5);
+    animation: numberIn .8s ease;
 }
 
-
-@keyframes numberIn{
-
-    0%{
-
-        opacity:0;
-
-        transform:
-            scale(1.8);
-
-        filter:blur(15px);
-
-    }
+@keyframes numberIn {
+    0% { opacity: 0; transform: scale(1.8); filter: blur(15px); }
+    100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
 
     100%{
 
