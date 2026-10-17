@@ -148,15 +148,7 @@ body{
     font-weight:200;
 
     line-height:1;
-
-    text-shadow:
-
-        0 0 10px
-        rgba(255, 171, 216, 0.66),
-
-        0 0 15px
-        rgba(255, 158, 179, 0.708);
-    color: #ffd8e8;
+    color: #ffffff;
     font-family: "Playfair Display", Courier, monospace;
     animation:
         numberIn .8s ease;
@@ -712,9 +704,4 @@ font-family:  'Amiri', serif;
 
     }
 
-}
-.number {
-    filter: none !important;
-    -webkit-filter: none !important;
-    text-shadow: 0 0 8px #ff69b4;
 }
