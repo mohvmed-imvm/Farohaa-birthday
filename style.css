@@ -713,3 +713,8 @@ font-family:  'Amiri', serif;
     }
 
 }
+.number {
+    filter: none !important;
+    -webkit-filter: none !important;
+    text-shadow: 0 0 8px #ff69b4;
+}
